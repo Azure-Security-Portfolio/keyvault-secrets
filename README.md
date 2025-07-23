@@ -138,17 +138,10 @@ This lab demonstrates how to eliminate this risk by centralizing secrets in Azur
 
 ## References
 
-- Azure Key Vault documentation
-(https://learn.microsoft.com/en-us/azure/key-vault/general/overview)
-
-- Manage access to Key Vault with RBAC
-(https://learn.microsoft.com/en-us/azure/key-vault/general/rbac-guide?tabs=azure-cli)
-
-- App registrations in Azure AD
-(https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app)
-
-- Azure Key Vault Python SDK
-(https://learn.microsoft.com/en-us/python/api/overview/azure/key-vault?view=azure-python)
+- [Azure Key Vault documentation](https://learn.microsoft.com/en-us/azure/key-vault/general/overview)
+- [Manage access to Key Vault with RBAC](https://learn.microsoft.com/en-us/azure/key-vault/general/rbac-guide?tabs=azure-cli)
+- [App registrations in Azure AD](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app)
+- [Azure Key Vault Python SDK](https://learn.microsoft.com/en-us/python/api/overview/azure/key-vault?view=azure-python)
 
 ---
 
