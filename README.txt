@@ -104,7 +104,7 @@ This lab demonstrates how to eliminate this risk by centralizing secrets in Azur
 
 ## Screenshots
 
-*All screenshots are included in the screenshots/ folder.
+*All screenshots are included in the screenshots/ folder.*
 
 | Step | Filename                                  | Description                                            |
 | ---- | ----------------------------------------- | ------------------------------------------------------ |
