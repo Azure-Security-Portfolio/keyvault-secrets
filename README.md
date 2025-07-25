@@ -146,3 +146,5 @@ This lab demonstrates how to eliminate this risk by centralizing secrets in Azur
 ---
 
 Sebastian Silva C. – July 2025 – Berlin, Germany.
+- [LinkedIn](https://www.linkedin.com/in/sebastiansilc/)
+- [GitHub](https://github.com/SebaSilC)
