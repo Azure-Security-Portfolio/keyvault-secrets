@@ -6,12 +6,12 @@ Implementation of secure, app-only secrets management using Azure Key Vault and 
 
 ## Table of Contents
 
-- [Overview]
-- [Real-World Risk]
-- [What I Built]
-- [Diagram]
-- [Objectives]
-- [Steps Performed]
+- [Overview](#overview)
+- [Real-World Risk](#real-world-risk)
+- [What I Built](#what-i-built)
+- [Diagram](#diagram)
+- [Objectives](#objectives)
+- [Steps Performed](#steps-performed)
   - [1. Resource Group and Key Vault Creation]
   - [2. App Registration and Client Secret]
   - [3. Key Vault Secret Storage]
@@ -20,9 +20,9 @@ Implementation of secure, app-only secrets management using Azure Key Vault and 
   - [6. Secret Rotation and Validation]
   - [7. Audit & Version History]
   - [8. Cleanup & Least Privilege Enforcement]
-- [Screenshots]
-- [Lessons Learned]
-- [References]
+- [Screenshots](#screenshots)
+- [Lessons Learned](#lessons-learned)
+- [References](#references)
 
 ---
 
