@@ -23,6 +23,7 @@ Implementation of secure, app-only secrets management using Azure Key Vault and 
 - [Screenshots](#screenshots)
 - [Lessons Learned](#lessons-learned)
 - [References](#references)
+- [Contact](#contact)
 
 ---
 
@@ -143,8 +144,7 @@ This lab demonstrates how to eliminate this risk by centralizing secrets in Azur
 - [App registrations in Azure AD](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app)
 - [Azure Key Vault Python SDK](https://learn.microsoft.com/en-us/python/api/overview/azure/key-vault?view=azure-python)
 
----
+## Contact
 
-Sebastian Silva C. – July 2025 – Berlin, Germany.
-- [LinkedIn](https://www.linkedin.com/in/sebastiansilc/)
-- [GitHub](https://github.com/SebaSilC)
+Sebastian Silva C. – July, 2025 – Berlin, Germany.  
+[LinkedIn](https://www.linkedin.com/in/sebastiansilc) | [GitHub](https://github.com/SebaSilC) | [sebastian@playbookvisualarts.com](mailto:sebastian@playbookvisualarts.com)
