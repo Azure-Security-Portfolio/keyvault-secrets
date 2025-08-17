@@ -73,39 +73,39 @@ This lab demonstrates how to eliminate this risk by centralizing secrets in Azur
 ## Steps Performed
 
 **1. Resource Group and Key Vault Creation**
-   - Created a dedicated resource group for lab isolation and easy cleanup *(Screenshot: resource-group-create.png)*
-   - Deployed Azure Key Vault (SecLabKeyVault02) with RBAC enabled *(Screenshots: keyvault-create-details.png & keyvault-overview.png)*
+   - Created a dedicated resource group for lab isolation and easy cleanup *(Screenshot: `resource-group-create.png`)*
+   - Deployed Azure Key Vault (SecLabKeyVault02) with RBAC enabled *(Screenshots: `keyvault-create-details.png` & `keyvault-overview.png`)*
 
 **2. App Registration and Client Secret**
-   - Registered an Azure AD application (SecLabKeyVaultApp) for app-to-app authentication *(Screenshot: app-registration-create.png)*
-   - Created a client secret for secure, passwordless app authentication *(Screenshot: app-client-secret-created.png)*
+   - Registered an Azure AD application (SecLabKeyVaultApp) for app-to-app authentication *(Screenshot: `app-registration-create.png`)*
+   - Created a client secret for secure, passwordless app authentication *(Screenshot: `app-client-secret-created.png`)*
 
 **3. Key Vault Secret Storage**
-   - Added a secret (DbPassword) to Key Vault, simulating a sensitive database credential *(Screenshot: keyvault-add-secret-details.png)*
+   - Added a secret (DbPassword) to Key Vault, simulating a sensitive database credential *(Screenshot: `keyvault-add-secret-details.png`)*
 
 **4. App-Only Access & RBAC Configuration**
-   - Assigned the “Key Vault Secrets User” role to the app registration at the Key Vault scope *(Screenshots: keyvault-rbac-app-role.png & keyvault-rbac-secrets-user-role.png)*
-   - Verified that RBAC denies all user/human access—only the app can retrieve secrets *(Screenshots: keyvault-rbac-blocks-human-access.png & keyvault-final-role-assignments.png)*
+   - Assigned the “Key Vault Secrets User” role to the app registration at the Key Vault scope *(Screenshots: `keyvault-rbac-app-role.png` & `keyvault-rbac-secrets-user-role.png`)*
+   - Verified that RBAC denies all user/human access—only the app can retrieve secrets *(Screenshots: `keyvault-rbac-blocks-human-access.png` & `keyvault-final-role-assignments.png`)*
 
 **5. Automated Secret Retrieval**
-   - Used a Python script authenticated as the app to retrieve the secret securely *(Screenshots: app-token-acquisition-success.png & keyvault-app-secret-retrieval.png)*
+   - Used a Python script authenticated as the app to retrieve the secret securely *(Screenshots: `app-token-acquisition-success.png` & `keyvault-app-secret-retrieval.png`)*
 
 **6. Secret Rotation and Validation**
-   - Rotated the secret by creating a new version in Key Vault *(Screenshot: keyvault-secret-rotation-new-version.png)*
-   - Re-ran the script to confirm the new secret value is instantly available to the app *(Screenshot: keyvault-app-secret-retrieval-rotated.png)*
+   - Rotated the secret by creating a new version in Key Vault *(Screenshot: `keyvault-secret-rotation-new-version.png`)*
+   - Re-ran the script to confirm the new secret value is instantly available to the app *(Screenshot: `keyvault-app-secret-retrieval-rotated.png`)*
 
 **7. Audit & Version History**
-   - Viewed the secret’s version history for full auditability *(Screenshot: keyvault-secret-version-history.png)*
+   - Viewed the secret’s version history for full auditability *(Screenshot: `keyvault-secret-version-history.png`)*
 
 **8. Cleanup & Least Privilege Enforcement**
    - Removed all user/admin roles from the Key Vault after setup
-   - Documented “zero standing privilege” and least privilege, leaving only the app registration with access *(Screenshot: keyvault-final-role-assignments.png)*
+   - Documented “zero standing privilege” and least privilege, leaving only the app registration with access *(Screenshot: `keyvault-final-role-assignments.png`)*
 
 ---
 
 ## Screenshots
 
-*All screenshots are included in the screenshots/ folder.*
+*All screenshots are included in the `screenshots/` folder.*
 
 | Step | Filename                                  | Description                                            |
 | ---- | ----------------------------------------- | ------------------------------------------------------ |
